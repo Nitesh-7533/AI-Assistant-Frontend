@@ -6,7 +6,7 @@ export const userDataContext = createContext();
 
 function UserContext({ children }) {
 
- const serverUrl = "https://ai-assistants-backend.vercel.app/";
+ const serverUrl = "https://ai-assistants-backend-1.onrender.com";
 
 
  const [userData, setUserData] = useState(null)
